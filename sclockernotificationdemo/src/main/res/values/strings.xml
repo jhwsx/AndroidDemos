@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SCLockerNotificationDemo</string>
+    <string name="notification_intercept_attack_time_text_view">今天已拦截%1$s次隐私攻击</string>
+</resources>
