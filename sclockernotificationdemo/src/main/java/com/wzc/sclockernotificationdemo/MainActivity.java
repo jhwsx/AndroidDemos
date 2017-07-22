@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(mContext, MyReceiver.class);
         intent.setAction(MyReceiver.ACTION_MYRECEIVER);
         PendingIntent pi = PendingIntent.getBroadcast(mContext, requestCode, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-        contentView.setOnClickPendingIntent(R.id.check_right_now,pi);
+        contentView.setOnClickPendingIntent(R.id.notification_layout,pi);
         int interceptTime = 5;
         String interceptText = mContext.getString(R.string.notification_intercept_attack_time_text_view, String.valueOf(interceptTime));
         contentView.setTextViewText(R.id.notification_intercept_time,getSpannableString(interceptText,String.valueOf(interceptTime)));
