@@ -1,1 +1,1 @@
-include ':app', ':sclockernotificationdemo'
+include ':app', ':sclockernotificationdemo', ':androidprocesses'
