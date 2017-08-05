@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ScrollerDemo</string>
+    <string name="title_activity_scroll_demo">ScrollDemoActivity</string>
+    <string name="title_activity_scroller_view_pager">ScrollerViewPagerActivity</string>
+    <string name="title_activity_get_scroll_x">GetScrollXActivity</string>
+    <string name="action_settings">Settings</string>
+</resources>
