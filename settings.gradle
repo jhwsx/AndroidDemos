@@ -1,1 +1,1 @@
-include ':app', ':sclockernotificationdemo', ':androidprocesses', ':nestedscrollingdemo', ':scrollerdemo', ':gesturedetectordemo'
+include ':app', ':sclockernotificationdemo', ':androidprocesses', ':nestedscrollingdemo'

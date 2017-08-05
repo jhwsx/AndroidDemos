@@ -5,10 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/AndroidDemos.iml" filepath="$PROJECT_DIR$/AndroidDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidprocesses/androidprocesses.iml" filepath="$PROJECT_DIR$/androidprocesses/androidprocesses.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gesturedetectordemo/gesturedetectordemo.iml" filepath="$PROJECT_DIR$/gesturedetectordemo/gesturedetectordemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/nestedscrollingdemo/nestedscrollingdemo.iml" filepath="$PROJECT_DIR$/nestedscrollingdemo/nestedscrollingdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/sclockernotificationdemo/sclockernotificationdemo.iml" filepath="$PROJECT_DIR$/sclockernotificationdemo/sclockernotificationdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/scrollerdemo/scrollerdemo.iml" filepath="$PROJECT_DIR$/scrollerdemo/scrollerdemo.iml" />
     </modules>
   </component>
 </project>
