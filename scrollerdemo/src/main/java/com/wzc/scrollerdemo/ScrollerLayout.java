@@ -70,6 +70,7 @@ public class ScrollerLayout extends ViewGroup {
     public boolean onInterceptTouchEvent(MotionEvent ev) {
         switch (ev.getAction()) {
             case MotionEvent.ACTION_DOWN:
+                Log.d("ScrollerLayout", "子控件的down事件");
                 mXDown = ev.getRawX();
                 break;
             case MotionEvent.ACTION_MOVE:
@@ -82,8 +83,10 @@ public class ScrollerLayout extends ViewGroup {
                     Log.d("ScrollerLayout", "手指拖动值大于TouchSlop的值");
                     return true;
                 }
+                Log.d("ScrollerLayout", "子控件的move事件");
                 break;
             case MotionEvent.ACTION_UP:
+                Log.d("ScrollerLayout", "子控件的up事件");
                 break;
         }
         return super.onInterceptTouchEvent(ev);
@@ -116,6 +119,7 @@ public class ScrollerLayout extends ViewGroup {
                 mXLastMove = mXMove;
                 break;
             case MotionEvent.ACTION_UP:
+                Log.d("ScrollerLayout", "收到了拦截到子控件的up事件");
                 // 当手指抬起时,根据当前的滚动值来判断应该滚动到哪个页面
                 int targetIndex = (getScrollX() + getWidth() / 2) / getWidth();
                 int dx = targetIndex * getWidth() - getScrollX();
