@@ -11,6 +11,7 @@ import android.widget.Button;
  * 2017年7月29日11:52:53
  * 目标: 学习View类的scrollTo()和scrollBy()方法
  * 区别: 与Scroller的区别是,View类的这两个方法实现的效果是跳跃式的,而Scroller的是平滑滚动的效果.
+ * 注意的地方: scrollTo()和scrollBy()滚动的是View的内容，而不是将View做整体的移动
  */
 public class ScrollDemoActivity extends AppCompatActivity {
 

@@ -21,6 +21,11 @@
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
+            android:name=".ScrollerDemoActivity"
+            android:label="@string/title_activity_scroller_demo"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
             android:name=".ScrollerViewPagerActivity"
             android:label="@string/title_activity_scroller_view_pager"
             android:theme="@style/AppTheme.NoActionBar">
