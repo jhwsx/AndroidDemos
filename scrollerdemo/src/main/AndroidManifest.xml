@@ -31,6 +31,11 @@
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
+            android:name=".ScrollerViewPager1Activity"
+            android:label="@string/title_activity_scroller_view_pager_1"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
             android:name=".GetScrollXActivity"
             android:label="@string/title_activity_get_scroll_x"
             android:theme="@style/AppTheme.NoActionBar">

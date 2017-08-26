@@ -12,6 +12,8 @@ import android.widget.Scroller;
 /**
  * Created by wzc on 2017/7/29.
  * 该例子参考资料 http://blog.csdn.net/guolin_blog/article/details/48719871
+ * 2017年8月26日19:40:03
+ * 这个自定义控件的子view必须是可以获取到点击的,如果是button,就不用处理了;若是imageview,那么就要setClickable(true).
  */
 
 public class ScrollerLayout extends ViewGroup {

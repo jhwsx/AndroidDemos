@@ -3,6 +3,7 @@
     <string name="title_activity_scroll_demo">ScrollDemoActivity</string>
     <string name="title_activity_scroller_demo">ScrollerDemoActivity</string>
     <string name="title_activity_scroller_view_pager">ScrollerViewPagerActivity</string>
+    <string name="title_activity_scroller_view_pager_1">ScrollerViewPager1Activity</string>
     <string name="title_activity_get_scroll_x">GetScrollXActivity</string>
     <string name="action_settings">Settings</string>
 </resources>

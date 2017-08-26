@@ -43,6 +43,13 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        findViewById(R.id.button5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ScrollerViewPager1Activity .class));
+
+            }
+        });
 
     }
 }
